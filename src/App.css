@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(21, 19, 22, 0.26);
+  background-color: rgba(249, 249, 250, 0.26);
 }
 .cardMain {
   padding: 2%;
@@ -11,9 +11,12 @@ body {
   text-align: center;
   margin-top: 2%;
 }
-.btn {
+.btn{
   margin: 0 0.5%;
   font-size: 2rem;
+}
+.btn:focus {
+  background-color: rgb(62, 107, 150);
 }
 .card {
   display: block;
@@ -26,4 +29,5 @@ body {
   max-width: 150px;
   width: 150px;
   height: 150px;
+  border-radius: 8px;
 }
