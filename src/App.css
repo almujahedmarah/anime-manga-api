@@ -22,8 +22,8 @@ body {
   text-align: center;
 }
 .img-fluid {
-  height: auto;
-}
-.title {
-  font-size: 2rem;
+  max-height: 400px;
+  max-width: 150px;
+  width: 150px;
+  height: 150px;
 }
